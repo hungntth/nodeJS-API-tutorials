@@ -1,0 +1,25 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "123",
+    "database": "sequelizett",
+    "host": "localhost",
+    "dialect": "postgres",
+    "loging":false,
+    "query":{"raw": true}
+  },
+  "test": {
+    "username": "postgres",
+    "password": "123",
+    "database": "sequelizett",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "123",
+    "database": "sequelizett",
+    "host": "localhost",
+    "dialect": "postgres"
+  }
+}
